@@ -6,7 +6,34 @@
 		<title>Login</title>
 		<style>
 			#login{
-				background-color: #ccc;
+				font-family: sans-serif;
+				background-color: #f1f1f1;
+				margin: 0 auto;
+				width: 40%;
+				padding: 10px;
+			}
+			#login h1{
+				text-align: center;
+				color: grey;
+				font-weight: 300;
+			}
+			#login div{
+				text-align: center;
+				padding: 5px;
+			}
+			#login input{
+				width: 100%;
+				padding:  10px;
+			}
+			#login button{
+				width: 100%;
+				background-color: #4242ff;
+				color: #ffffff;
+				padding: 10px
+			}
+			#register{
+				color: darkgray;
+				font-size: 15px;
 			}
 		</style>
 	</head>
@@ -16,16 +43,16 @@
 				<h1>Log-in</h1>
 			</div>
 			<div>
-				<input type="text">
+				<input type="text" placeholder="username">
 			</div>
 			<div>
-				<input type="password">
+				<input type="password" placeholder="password">
 			</div>
 			<div>
 				<button>login</button>
 			</div>
 			<div>
-				<p>Register: Forgot Password</p>
+				<p id="register">Register | Forgot Password</p>
 			</div>
 		</div>
 	</body>
