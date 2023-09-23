@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Clientes</title>
+</head>
+
+<body>
+
+
+    <h1>Cadastro de Cliente</h1>
+    <form action="">
+        <div>
+            <input type="text" placeholder="Nome">
+        </div>
+
+        <div>
+            <input type="email" placeholder="E-mail">
+        </div>
+
+        <div>
+            <label for="f">feminino</label>
+            <input type="radio" name="sexo" id="f">
+        </div>
+
+        <div>
+            <label for="m">Masculino</label>
+            <input type="radio" name="sexo" id="m">
+        </div>
+
+        <fieldset>
+            <legend>Cursos de Interesse</legend>
+            <div>
+                <input type="checkbox" id="web"><label for="web">Curso de Desenvolvimento Web</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mobile"><label for="mobile">Cursos de Desenvolvimento Mobile</label>
+
+            </div>
+            <div>
+                <input type="checkbox" id="desktop"><label for="desktop">Curso para desenvolvimento Desktop</label>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <label for="estados">Estado</label>
+            <select id="estados">
+                <option value="">Selecionar</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="br">Brasília</option>
+                <option value="ms" selected>Mato Grosso do Sul</option>
+            </select>
+        </div>
+
+        <div> <label for="foto">Foto</label>
+            <input type="file" id="foto">
+        </div>
+
+        <div>
+            <label for="data">Data Nascimento</label>
+            <input type="datetime-local" id="data">
+        </div>
+
+        <div>
+            <button type="submit">Salvar</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
