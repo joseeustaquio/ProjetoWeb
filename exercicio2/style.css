@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(9, 163, 198);
+    float: left;
+    width: 30%;
+    height: 600px;
+    box-shadow: 5px 0px 20px gray;
+    color: #fff;
+}
+nav li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+nav li:hover{
+    background-color: steelblue;
+    cursor: pointer;
+}
+ul{
+    padding: 0px;
+}
+main{
+    float: right;
+    width: 70%;
+    height: 600px;
+    height: 600px;
+}
+
+div{
+    padding: 10px;
+}
+input[type="text"], input[type="email"], input[type="datetime-local"]{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+.centro{
+    text-align: center;
+}
+button{
+   
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(9, 163, 198);
+}
