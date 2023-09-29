@@ -8,6 +8,8 @@ nav{
     height: 600px;
     box-shadow: 5px 0px 20px gray;
     color: #fff;
+    transition: width 1s;
+    overflow: hidden;
 }
 nav li{
     list-style: none;
@@ -22,12 +24,7 @@ nav li:hover{
 ul{
     padding: 0px;
 }
-main{
-    float: right;
-    width: 70%;
-    height: 600px;
-    height: 600px;
-}
+
 
 div{
     padding: 10px;
@@ -52,3 +49,36 @@ button{
     cursor: pointer;
     background-color: rgb(9, 163, 198);
 }
+main{
+    float: right;
+    width: 70%;
+    transition: width 1s;
+}
+.menuFechar{
+    width: 20px;
+    opacity: 0px;
+}
+.menuAbrir{
+    width: 20px;
+    opacity: 0px;
+}
+.menuAberto{
+    width: 30%;
+}
+
+
+@media(max-width: 600px){
+    nav{
+        width: 0%;
+    }
+    main{
+        width: 100%;
+    }
+    .menuFechar{
+        opacity: 1px;
+    }
+    .menuAbrir{
+        opacity: 1px;
+    }
+}
+

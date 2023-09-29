@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Clientes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js"></script>
 </head>
 
 <body>
-    <nav class="centro">
+    <nav class="centro" id="menu">
+        <img src="img/fechar.svg" class="menuFechar" alt="" onclick="fecharMenu()">
         <h2>Menu</h2>
         <ul>
             <li>Usuário</li>
@@ -21,6 +23,7 @@
     </nav>
 
     <main>
+        <img src="img/abrir.svg" class="menuAbrir" alt="" onclick="abrirMenu()">
         <h1>Cadastro de Cliente</h1>
         <form action="">
             <div>
