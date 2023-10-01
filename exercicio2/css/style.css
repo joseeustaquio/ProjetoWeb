@@ -10,6 +10,7 @@ nav{
     color: #fff;
     transition: width 1s;
     overflow: hidden;
+    
 }
 nav li{
     list-style: none;
@@ -63,7 +64,7 @@ main{
     opacity: 0px;
 }
 .menuAberto{
-    width: 30%;
+    width: 40%;
 }
 
 
